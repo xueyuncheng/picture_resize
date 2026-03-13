@@ -1,0 +1,57 @@
+# 忽略 uv 生成的文件
+.venv/
+uv.lock
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 测试输出图片
+*_证件照.jpg
+*_id_photo.*
+证件照输出/
+output/
+test_images/
+
+# 日志文件
+*.log
+
+# 临时文件
+.tmp/
+temp/
