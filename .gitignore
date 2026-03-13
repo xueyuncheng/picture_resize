@@ -33,6 +33,9 @@ MANIFEST
 *.swo
 *~
 
+# Claude Code 本地设置
+.claude/
+
 # 操作系统
 .DS_Store
 .DS_Store?
